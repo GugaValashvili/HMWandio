@@ -1,0 +1,547 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0D52900E2523912E0059C207 /* UiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D52900D2523912E0059C207 /* UiViewController.swift */; };
+		0D529010252398780059C207 /* PlayersListCollectionViewControoler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D52900F252398780059C207 /* PlayersListCollectionViewControoler.swift */; };
+		0D5290142523A5750059C207 /* PlayerItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D5290122523A5750059C207 /* PlayerItemCell.swift */; };
+		0D5290152523A5750059C207 /* PlayerItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0D5290132523A5750059C207 /* PlayerItemCell.xib */; };
+		0D6673002523B51400129CFD /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D6672FF2523B51400129CFD /* String.swift */; };
+		0D6673042524711B00129CFD /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D6673032524711B00129CFD /* Player.swift */; };
+		0D667307252471F300129CFD /* PlayerInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D667306252471F300129CFD /* PlayerInfoViewController.swift */; };
+		0D6673092524746A00129CFD /* FerchPlayerInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D6673082524746A00129CFD /* FerchPlayerInfo.swift */; };
+		0D66730B2525C2DE00129CFD /* GIF.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D66730A2525C2DE00129CFD /* GIF.swift */; };
+		0D66730D2525C6AA00129CFD /* GIF.gif in Resources */ = {isa = PBXBuildFile; fileRef = 0D66730C2525C6AA00129CFD /* GIF.gif */; };
+		0DB1CA062520A59200454BA0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DB1CA052520A59200454BA0 /* AppDelegate.swift */; };
+		0DB1CA0A2520A59200454BA0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DB1CA092520A59200454BA0 /* ViewController.swift */; };
+		0DB1CA0D2520A59200454BA0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DB1CA0B2520A59200454BA0 /* Main.storyboard */; };
+		0DB1CA0F2520A59400454BA0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0DB1CA0E2520A59400454BA0 /* Assets.xcassets */; };
+		0DB1CA122520A59400454BA0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DB1CA102520A59400454BA0 /* LaunchScreen.storyboard */; };
+		0DEC691B2520CD8A00413F60 /* MyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DEC691A2520CD8A00413F60 /* MyTableViewCell.swift */; };
+		0DEC69232520CEFC00413F60 /* MatchesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DEC69222520CEFC00413F60 /* MatchesViewController.swift */; };
+		0DEC6926252117A900413F60 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DEC6925252117A900413F60 /* DetailsViewController.swift */; };
+		0DEC69292521C5F800413F60 /* Match.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DEC69282521C5F800413F60 /* Match.swift */; };
+		0DEC692C2522076E00413F60 /* FetchMatchies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DEC692B2522076E00413F60 /* FetchMatchies.swift */; };
+		0DEC692E25225AF700413F60 /* GameModeEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DEC692D25225AF700413F60 /* GameModeEnum.swift */; };
+		2040476AE3E2533FC2250FA0 /* Pods_Wandio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CD01B0C1952CBA0439BC511 /* Pods_Wandio.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0D52900D2523912E0059C207 /* UiViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UiViewController.swift; sourceTree = "<group>"; };
+		0D52900F252398780059C207 /* PlayersListCollectionViewControoler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayersListCollectionViewControoler.swift; sourceTree = "<group>"; };
+		0D5290122523A5750059C207 /* PlayerItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerItemCell.swift; sourceTree = "<group>"; };
+		0D5290132523A5750059C207 /* PlayerItemCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PlayerItemCell.xib; sourceTree = "<group>"; };
+		0D6672FF2523B51400129CFD /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		0D6673032524711B00129CFD /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		0D667306252471F300129CFD /* PlayerInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerInfoViewController.swift; sourceTree = "<group>"; };
+		0D6673082524746A00129CFD /* FerchPlayerInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FerchPlayerInfo.swift; sourceTree = "<group>"; };
+		0D66730A2525C2DE00129CFD /* GIF.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GIF.swift; sourceTree = "<group>"; };
+		0D66730C2525C6AA00129CFD /* GIF.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = GIF.gif; sourceTree = "<group>"; };
+		0DB1CA022520A59200454BA0 /* Wandio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wandio.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0DB1CA052520A59200454BA0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0DB1CA092520A59200454BA0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0DB1CA0C2520A59200454BA0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0DB1CA0E2520A59400454BA0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0DB1CA112520A59400454BA0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0DB1CA132520A59400454BA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0DEC691A2520CD8A00413F60 /* MyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTableViewCell.swift; sourceTree = "<group>"; };
+		0DEC69222520CEFC00413F60 /* MatchesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchesViewController.swift; sourceTree = "<group>"; };
+		0DEC6925252117A900413F60 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		0DEC69282521C5F800413F60 /* Match.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Match.swift; sourceTree = "<group>"; };
+		0DEC692B2522076E00413F60 /* FetchMatchies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchMatchies.swift; sourceTree = "<group>"; };
+		0DEC692D25225AF700413F60 /* GameModeEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameModeEnum.swift; sourceTree = "<group>"; };
+		4CD01B0C1952CBA0439BC511 /* Pods_Wandio.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Wandio.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		725055974526BF034D7742F0 /* Pods-Wandio.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wandio.release.xcconfig"; path = "Target Support Files/Pods-Wandio/Pods-Wandio.release.xcconfig"; sourceTree = "<group>"; };
+		F39BD91AEA8074567C086D41 /* Pods-Wandio.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wandio.debug.xcconfig"; path = "Target Support Files/Pods-Wandio/Pods-Wandio.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0DB1C9FF2520A59200454BA0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2040476AE3E2533FC2250FA0 /* Pods_Wandio.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		02B700F8A3B5CD762CBAD61A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F39BD91AEA8074567C086D41 /* Pods-Wandio.debug.xcconfig */,
+				725055974526BF034D7742F0 /* Pods-Wandio.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		0D5290112523A5290059C207 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				0D5290122523A5750059C207 /* PlayerItemCell.swift */,
+				0D5290132523A5750059C207 /* PlayerItemCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		0D667305252471B600129CFD /* PlayerInfo */ = {
+			isa = PBXGroup;
+			children = (
+				0D667306252471F300129CFD /* PlayerInfoViewController.swift */,
+			);
+			path = PlayerInfo;
+			sourceTree = "<group>";
+		};
+		0DB1C9F92520A59200454BA0 = {
+			isa = PBXGroup;
+			children = (
+				0DB1CA042520A59200454BA0 /* Wandio */,
+				0DB1CA032520A59200454BA0 /* Products */,
+				02B700F8A3B5CD762CBAD61A /* Pods */,
+				62D09CA456B3008C70608DED /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0DB1CA032520A59200454BA0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0DB1CA022520A59200454BA0 /* Wandio.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0DB1CA042520A59200454BA0 /* Wandio */ = {
+			isa = PBXGroup;
+			children = (
+				0DEC693025226FE700413F60 /* Extension */,
+				0DEC692F25225B0000413F60 /* Enum */,
+				0DEC692A2522075000413F60 /* Network */,
+				0DEC69152520C4BE00413F60 /* Matches */,
+				0DEC69242521178200413F60 /* Details */,
+				0D667305252471B600129CFD /* PlayerInfo */,
+				0DB1CA052520A59200454BA0 /* AppDelegate.swift */,
+				0DB1CA092520A59200454BA0 /* ViewController.swift */,
+				0DB1CA0B2520A59200454BA0 /* Main.storyboard */,
+				0DB1CA0E2520A59400454BA0 /* Assets.xcassets */,
+				0D66730C2525C6AA00129CFD /* GIF.gif */,
+				0DB1CA102520A59400454BA0 /* LaunchScreen.storyboard */,
+				0DB1CA132520A59400454BA0 /* Info.plist */,
+			);
+			path = Wandio;
+			sourceTree = "<group>";
+		};
+		0DEC69122520BD6000413F60 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				0DEC691A2520CD8A00413F60 /* MyTableViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		0DEC69152520C4BE00413F60 /* Matches */ = {
+			isa = PBXGroup;
+			children = (
+				0D66730A2525C2DE00129CFD /* GIF.swift */,
+				0DEC69222520CEFC00413F60 /* MatchesViewController.swift */,
+				0DEC69122520BD6000413F60 /* Cells */,
+			);
+			path = Matches;
+			sourceTree = "<group>";
+		};
+		0DEC69242521178200413F60 /* Details */ = {
+			isa = PBXGroup;
+			children = (
+				0DEC6925252117A900413F60 /* DetailsViewController.swift */,
+				0D52900F252398780059C207 /* PlayersListCollectionViewControoler.swift */,
+				0D5290112523A5290059C207 /* Cells */,
+			);
+			path = Details;
+			sourceTree = "<group>";
+		};
+		0DEC69272521C4E300413F60 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0DEC69282521C5F800413F60 /* Match.swift */,
+				0D6673032524711B00129CFD /* Player.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0DEC692A2522075000413F60 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				0DEC692B2522076E00413F60 /* FetchMatchies.swift */,
+				0D6673082524746A00129CFD /* FerchPlayerInfo.swift */,
+				0DEC69272521C4E300413F60 /* Model */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		0DEC692F25225B0000413F60 /* Enum */ = {
+			isa = PBXGroup;
+			children = (
+				0DEC692D25225AF700413F60 /* GameModeEnum.swift */,
+			);
+			path = Enum;
+			sourceTree = "<group>";
+		};
+		0DEC693025226FE700413F60 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				0D52900D2523912E0059C207 /* UiViewController.swift */,
+				0D6672FF2523B51400129CFD /* String.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		62D09CA456B3008C70608DED /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4CD01B0C1952CBA0439BC511 /* Pods_Wandio.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0DB1CA012520A59200454BA0 /* Wandio */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0DB1CA162520A59400454BA0 /* Build configuration list for PBXNativeTarget "Wandio" */;
+			buildPhases = (
+				39466B3E910BCE70676D15DD /* [CP] Check Pods Manifest.lock */,
+				0DB1C9FE2520A59200454BA0 /* Sources */,
+				0DB1C9FF2520A59200454BA0 /* Frameworks */,
+				0DB1CA002520A59200454BA0 /* Resources */,
+				70377F811E76B5B64678AC5D /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Wandio;
+			productName = Wandio;
+			productReference = 0DB1CA022520A59200454BA0 /* Wandio.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0DB1C9FA2520A59200454BA0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1170;
+				LastUpgradeCheck = 1170;
+				ORGANIZATIONNAME = "Guga Valashvili";
+				TargetAttributes = {
+					0DB1CA012520A59200454BA0 = {
+						CreatedOnToolsVersion = 11.7;
+					};
+				};
+			};
+			buildConfigurationList = 0DB1C9FD2520A59200454BA0 /* Build configuration list for PBXProject "Wandio" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0DB1C9F92520A59200454BA0;
+			productRefGroup = 0DB1CA032520A59200454BA0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0DB1CA012520A59200454BA0 /* Wandio */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0DB1CA002520A59200454BA0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DB1CA122520A59400454BA0 /* LaunchScreen.storyboard in Resources */,
+				0DB1CA0F2520A59400454BA0 /* Assets.xcassets in Resources */,
+				0DB1CA0D2520A59200454BA0 /* Main.storyboard in Resources */,
+				0D66730D2525C6AA00129CFD /* GIF.gif in Resources */,
+				0D5290152523A5750059C207 /* PlayerItemCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		39466B3E910BCE70676D15DD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Wandio-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		70377F811E76B5B64678AC5D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Wandio/Pods-Wandio-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Wandio/Pods-Wandio-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Wandio/Pods-Wandio-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0DB1C9FE2520A59200454BA0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DEC692C2522076E00413F60 /* FetchMatchies.swift in Sources */,
+				0D6673092524746A00129CFD /* FerchPlayerInfo.swift in Sources */,
+				0D6673002523B51400129CFD /* String.swift in Sources */,
+				0DEC692E25225AF700413F60 /* GameModeEnum.swift in Sources */,
+				0DB1CA0A2520A59200454BA0 /* ViewController.swift in Sources */,
+				0D667307252471F300129CFD /* PlayerInfoViewController.swift in Sources */,
+				0D6673042524711B00129CFD /* Player.swift in Sources */,
+				0DB1CA062520A59200454BA0 /* AppDelegate.swift in Sources */,
+				0D52900E2523912E0059C207 /* UiViewController.swift in Sources */,
+				0DEC69232520CEFC00413F60 /* MatchesViewController.swift in Sources */,
+				0D66730B2525C2DE00129CFD /* GIF.swift in Sources */,
+				0D529010252398780059C207 /* PlayersListCollectionViewControoler.swift in Sources */,
+				0D5290142523A5750059C207 /* PlayerItemCell.swift in Sources */,
+				0DEC691B2520CD8A00413F60 /* MyTableViewCell.swift in Sources */,
+				0DEC6926252117A900413F60 /* DetailsViewController.swift in Sources */,
+				0DEC69292521C5F800413F60 /* Match.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0DB1CA0B2520A59200454BA0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0DB1CA0C2520A59200454BA0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0DB1CA102520A59400454BA0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0DB1CA112520A59400454BA0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0DB1CA142520A59400454BA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0DB1CA152520A59400454BA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0DB1CA172520A59400454BA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F39BD91AEA8074567C086D41 /* Pods-Wandio.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = Wandio/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Dota.Wandio;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0DB1CA182520A59400454BA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 725055974526BF034D7742F0 /* Pods-Wandio.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = Wandio/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Dota.Wandio;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0DB1C9FD2520A59200454BA0 /* Build configuration list for PBXProject "Wandio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0DB1CA142520A59400454BA0 /* Debug */,
+				0DB1CA152520A59400454BA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0DB1CA162520A59400454BA0 /* Build configuration list for PBXNativeTarget "Wandio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0DB1CA172520A59400454BA0 /* Debug */,
+				0DB1CA182520A59400454BA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0DB1C9FA2520A59200454BA0 /* Project object */;
+}
