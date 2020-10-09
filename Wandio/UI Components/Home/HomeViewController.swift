@@ -17,12 +17,15 @@ class HomeViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        tableView.register(UITableViewCell.self, forCellReuseIdentifier: "cell")
-        tableView.delegate = self
-        tableView.dataSource = self
         viewModel.dislpay = self
         gif.loadGif(name: "GIF")
         self.navigationItem.title = "Dotta"
+    }
+
+    private func setupTableView() {
+        tableView.register(UITableViewCell.self, forCellReuseIdentifier: "cell")
+        tableView.delegate = self
+        tableView.dataSource = self
     }
 }
 
@@ -48,14 +51,16 @@ extension HomeViewController: UITableViewDataSource {
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
     }
+    
     func tableView(_ tableView: UITableView, willDisplay cell: UITableViewCell, forRowAt indexPath: IndexPath) {
         cell.textLabel?.text = viewModel.title(at: indexPath.row)
     }
     
     func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
-        "Match ID"
+        viewModel.titleForHeader
     }
+    
     func tableView(_ tableView: UITableView, titleForFooterInSection section: Int) -> String? {
-        "End"
+        viewModel.titleForFooter
     }
 }

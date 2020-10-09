@@ -7,11 +7,13 @@
 //
 
 import Foundation
+
 protocol PlayerInfoDisplay {
     func playerInfoViewModel(_ viewModel: PlayerInfoViewModel, stratLoader: Bool)
     func playerInfoViewModel(_ viewModel: PlayerInfoViewModel, didFetch player: Player)
     func playerInfoViewModel(_ viewModel: PlayerInfoViewModel, didFail error: Error)
 }
+
 class PlayerInfoViewModel {
     var dislpay: PlayerInfoDisplay?
     var playerID: String?
@@ -22,7 +24,6 @@ class PlayerInfoViewModel {
     
     private func fetch() {
         self.dislpay?.playerInfoViewModel(self, stratLoader: true)
-        
         Methods.players(id: playerID ?? "").fetch(Player.self) { [weak self] result in
             guard let self = self else { return }
             switch result {

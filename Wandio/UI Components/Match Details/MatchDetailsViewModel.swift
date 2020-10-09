@@ -25,7 +25,6 @@ class MatchDetailsViewModel {
     
     private func fetch() {
         self.dislpay?.matchDetailsViewModel(self, stratLoader: true)
-        
         Methods.matches(id: matchId ?? "").fetch(Match.self) { [weak self] result in
             guard let self = self else { return }
             switch result {

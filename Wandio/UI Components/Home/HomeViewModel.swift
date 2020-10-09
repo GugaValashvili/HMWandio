@@ -22,6 +22,14 @@ class HomeViewModel {
         "5635381216"
     ]
 
+    var titleForHeader: String {
+        "Match ID"
+    }
+
+    var titleForFooter: String {
+        "End"
+    }
+    
     func title(at index: Int) -> String? {
         if matchIds.count > index, index >= 0 {
             return matchIds[index]

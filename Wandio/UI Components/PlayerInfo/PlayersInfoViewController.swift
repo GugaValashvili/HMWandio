@@ -14,10 +14,12 @@ class PlayersInfoViewController: UIViewController {
     
     @IBOutlet weak var playerName: UILabel!
     @IBOutlet weak var playerPhoto: UIImageView!
+
     override func viewDidLoad() {
         super.viewDidLoad()
         viewModel.dislpay = self
     }
+
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         viewModel.willAppear()

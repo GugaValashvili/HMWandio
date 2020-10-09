@@ -42,7 +42,6 @@ class PlayersListCollectionViewController: UICollectionViewController, UICollect
         viewModel.count()
     }
     
-    
     override func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         collectionView.dequeueReusableCell(withReuseIdentifier: cellIdentifier, for: indexPath)
     }
@@ -72,6 +71,4 @@ extension PlayersListCollectionViewController: PlayersListCollectionDisplay {
     func playersListCollectionViewModel(_ viewModel: PlayersListCollectionViewModel, open player: Int) {
         goToPlayersInfo(id: "\(player)")
     }
-    
-    
 }

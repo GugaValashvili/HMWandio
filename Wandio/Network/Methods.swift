@@ -20,8 +20,8 @@ enum Methods {
             return "/players/" + id
         }
     }
-    
 }
+
 extension Methods {
     func fetch<T: Decodable>(_ type: T.Type, complition: @escaping (Result<T, Error>) -> Void) {
         NetworkManager.shared.getRequest(type, path: path, complition: complition)
