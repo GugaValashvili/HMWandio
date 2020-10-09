@@ -13,7 +13,7 @@ class PlayerItemCell: UICollectionViewCell {
     @IBOutlet weak var MyTitleLabel: UILabel!
     func setup(player: Players) {
         MyTitleLabel.text = player.displayName
-        MyTitleLabel.alpha = player.account_id == nil ? 0.6 : 1.0
+        MyTitleLabel.alpha = player.accountId == nil ? 0.6 : 1.0
     }
     
 }

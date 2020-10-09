@@ -35,7 +35,7 @@
                             <rect key="frame" x="0.0" y="302" width="414" height="360"/>
                             <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         </tableView>
-                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="YZs-HJ-5cL">
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="GIF.gif" translatesAutoresizingMaskIntoConstraints="NO" id="YZs-HJ-5cL">
                             <rect key="frame" x="0.0" y="662" width="414" height="200"/>
                         </imageView>
                         <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="DOTABUFF" translatesAutoresizingMaskIntoConstraints="NO" id="EBj-7i-fbQ">
@@ -78,5 +78,6 @@
     </objects>
     <resources>
         <image name="DOTABUFF" width="722" height="156"/>
+        <image name="GIF.gif" width="720" height="720"/>
     </resources>
 </document>

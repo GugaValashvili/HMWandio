@@ -8,14 +8,12 @@
 
 import UIKit
 extension UIViewController {
-    
     var activityIndicatorTag: Int { return 999999 }
 }
 
 extension UIViewController {
     
     func startActivityIndicator() {
-        
         DispatchQueue.main.async {
             let bgView = UIView(frame: self.view.bounds)
             bgView.backgroundColor = self.view.backgroundColor
@@ -29,10 +27,6 @@ extension UIViewController {
             self.view.addSubview(bgView)
         }
     }
-}
-
-
-extension UIViewController {
     
     func stopActivityIndicator() {
         DispatchQueue.main.async {
@@ -41,5 +35,20 @@ extension UIViewController {
                 bgView.removeFromSuperview()
             }
         }
+    }
+}
+
+
+extension UIViewController {
+    
+    func insertSubController(childVC: UIViewController, inView: UIView) {
+        self.addChild(childVC)
+        inView.addSubview(childVC.view)
+        childVC.didMove(toParent: self)
+        childVC.view.translatesAutoresizingMaskIntoConstraints = false
+        childVC.view.topAnchor.constraint(equalTo: inView.topAnchor).isActive = true
+        childVC.view.leftAnchor.constraint(equalTo: inView.leftAnchor).isActive = true
+        childVC.view.rightAnchor.constraint(equalTo: inView.rightAnchor).isActive = true
+        childVC.view.bottomAnchor.constraint(equalTo: inView.bottomAnchor).isActive = true
     }
 }

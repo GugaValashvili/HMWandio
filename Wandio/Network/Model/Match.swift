@@ -8,20 +8,20 @@
 
 import Foundation
 struct Match: Codable {
-    let game_mode: GameMode?
-    let dire_win: Bool?
-    let radiant_win: Bool?
+    let gameMode: GameMode?
+    let direWin: Bool?
+    let radiantWin: Bool?
     let duration: TimeInterval?
-    let first_bool_time: Int?
-    let dire_score: Int?
-    let radiant_score: Int?
+    let firstBoolTime: Int?
+    let direScore: Int?
+    let radiantScore: Int?
     let players: [Players]?
 }
 
 struct Players: Codable {
     let personaname: String?
     let isRadiant: Bool?
-    let account_id: Int?
+    let accountId: Int?
     
 }
 

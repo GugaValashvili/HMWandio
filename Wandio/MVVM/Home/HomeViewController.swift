@@ -21,6 +21,7 @@ class HomeViewController: UIViewController {
         tableView.delegate = self
         tableView.dataSource = self
         viewModel.dislpay = self
+        gif.loadGif(name: "GIF")
         self.navigationItem.title = "Dotta"
     }
 }
