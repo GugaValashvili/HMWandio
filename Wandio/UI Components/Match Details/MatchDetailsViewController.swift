@@ -57,7 +57,7 @@ class MatchDetailsViewController: UIViewController {
         matchDuration.text = "Match Duration is: " + "\(match.duration ?? 0)"
         first_blood_time.text = "Firs Blood Time is :" + "\(String(describing: match.firstBoolTime))"
         radiontScore.text = ("\(match.radiantScore ?? 0)")
-        direScore.text = ("\(match.direScore ?? 0))")
+        direScore.text = ("\(match.direScore ?? 0)")
         
         radiontScore.backgroundColor = match.radiantWin == true ? .green : .red
         direScore.backgroundColor = match.radiantWin == true ? .red : .green

@@ -7,7 +7,6 @@
 //
 
 import UIKit
-
 extension String {
     func width(withConstrainedHeight height: CGFloat, font: UIFont) -> CGFloat
     {

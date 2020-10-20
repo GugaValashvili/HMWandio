@@ -20,6 +20,7 @@ class HomeViewController: UIViewController {
         viewModel.dislpay = self
         gif.loadGif(name: "GIF")
         self.navigationItem.title = "Dotta"
+        setupTableView()
     }
 
     private func setupTableView() {
